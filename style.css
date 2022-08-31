@@ -124,17 +124,25 @@
     padding-bottom: 20px;
     font-family: 'Times New Roman', Times, serif; 
 }
-input[type=text],input[type=email],#comment{
-    background: transparent;
-    color: white;
-    font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+#fillform{
+  background: none;
 }
-
-.form-control::-webkit-input-placeholder{
-    color: aliceblue;
-
+.form-control{
+  background: none;
+}
+.form-control::placeholder{
+  color: white;
+}
+#submit{
+  border-radius: 10px;
+  background-color: aq;background: none;
+  padding-top: 20px;
+}
+#design,#development,#management{
+  display: none;
+  background-color: white;
+  position: absolute;
+  top: -20px;
 }
 #MERGE1{
     width: 30%;

@@ -118,18 +118,35 @@
 </div>    
 <div class="coniner-fluid contact">
     <h2>CONTACT US</h2>
-    <form id="" action="https://gmail.us3.list-manage.com/subscribe/post" method="POST">
-        <input type="hidden" name="u" value="e71bed4d6ae5a7c984dfe28b0">
-        <input type="hidden" name="id" value="dbf7e27685">
-        <div class="form-group form-inline">
-          <input type="text" class="form-control" placeholder = "Name...." name="MERGE1" id="MERGE1" size="25" value="">
-          <input type="email" class="form-control"  placeholder = "Email...." autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+    <div class="container-fluid d-flex flex-column align-items-center justify-content-evenly" id="fillform">
+        <h3 class="text-center text-white"></h3>
+        <form id="form1" class="d-flex flex-column align-items-center justify-content-evenly">
+            <div class="row align-items-center justify-content-around">
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name..." id="names">
+                    </div>
+            
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email..." id="emails">
+                    </div>
+                
+                </div>
+                <div class="col-lg-10 mt-4">
+                    <div class="form-group">
+                        <textarea rows="10" placeholder="Your message here..." class="form-control" id="messages"></textarea>
+                    </div>
+                
+                </div>
+                
+                
+            </div>
+            <div class="btnsub">
+            <button id="submit" class="mt-4">submit</button>
         </div>
-        <div class="form-group">
-          <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...."></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary col-md-1">Submit</button>
-    </form>
+        </form>
 </div>
 <footer>
     <img src="./images/behance.png" alt="behance">
@@ -145,7 +162,6 @@
     <p>Conformity-studios</p>
     <P>2022</P>
 </footer>
-<script
  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script src="/script.js"></script>
 </body>

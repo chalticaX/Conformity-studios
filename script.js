@@ -1,78 +1,66 @@
 $(document).ready(function(){
-    const elements=[1,2,3]
-  
-    elements.forEach((index)=>{
-      $('.content'+index).click(function(){
-       $('.hidden-content'+index).toggle();
-       $('.content'+index).toggle()
-    });
-      $('.hidden-content'+index).click(function(){
-        $('.content'+index).toggle()
-        $('.hidden-content'+index).toggle()
-      });
-  
-  
-  
-  
-  
-      
-      $(document).ready(function(){
-       $('#work1').mouseover(function(){
-         $('#overlay').show();
-       }).mouseout(function(){
-         $('#overlay').hide();
-       });  
-       $(document).ready(function(){
-        $("#work2").mouseover(function(){
-          $("#overlay2").show();
-        }).mouseout(function(){
-          $("#overlay").hide();
-        });
-      });
-      $(document).ready(function(){
-        $("#work3").mouseover(function(){
-          $("#overlay3").show();
-        }).mouseout(function(){
-          $("#overlay3").hide();
-        });
-      });
-      $(document).ready(function(){
-        $("#work4").mouseover(function(){
-          $("#overlay4").show();
-        }).mouseout(function(){
-          $("#overlay4").hide();
-        });
-      });
-      $(document).ready(function(){
-        $("#work5").mouseover(function(){
-          $("#overlay5").show();
-        }).mouseout(function(){
-          $("#overlay5").hide();
-        });
-      });
-      $(document).ready(function(){
-        $("#work6").mouseover(function(){
-          $("#overlay6").show();
-        }).mouseout(function(){
-          $("#overlay6").hide();
-        });
-      });
-      $(document).ready(function(){
-        $("#work7").mouseover(function(){
-          $("#overlay7").show();
-        }).mouseout(function(){
-          $("#overlay7").hide();
-        });
-      });
-      $(document).ready(function(){
-        $("#work8").mouseover(function(){
-          $("#overlay8").show();
-        }).mouseout(function(){
-          $("#overlay8").hide();
-        });
-      });
-     
-      });
-      
-  
-    })})
+  $("#designIcon").click(function(){
+      $("#design").show()
+  })
+  $("#design").click(function(){
+      $("#design").hide()
+  })
+  $("#devIcon").click(function(){
+      $("#development").show()
+  })
+  $("#development").click(function(){
+      $("#development").hide()
+  })
+  $("#productIcon").click(function(){
+      $("#management").show()
+  })
+  $("#management").click(function(){
+      $("#management").hide()
+  })
+  $(".Une").mouseover(function(){
+      $("#hover1").toggle()
+  })
+  $(".deux").mouseover(function(){
+      $("#hover2").toggle()
+  })
+  $(".trois").mouseover(function(){
+      $("#hover3").toggle()
+  })
+  $(".quatre").mouseover(function(){
+      $("#hover4").toggle()
+  })
+  $(".cinq").mouseover(function(){
+      $("#hover5").toggle()
+  })
+  $(".six").mouseover(function(){
+      $("#hover6").toggle()
+  })
+  $(".sept").mouseover(function(){
+      $("#hover7").toggle()
+  })
+  $(".huit").mouseover(function(){
+      $("#hover8").toggle()
+  })
+})
+
+
+var fom = document.querySelector("#form1");
+fom.addEventListener("submit",forme)
+
+function forme(event){
+  event.preventDefault()
+
+  var userName = document.querySelector("#names").value;
+  var userEmail = document.querySelector("#emails").value;
+  var userMessages = document.querySelector("#messages").value;
+
+  if(userName == ""){
+      return alert("please fill in name")
+  }else if(userEmail == ""){
+     return alert("please enter your Email address")
+  }else{
+      alert("thank you" + " " + "," + userName + " " + "we have recieved your details");
+  }
+  return fom.reset()
+
+}
