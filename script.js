@@ -17,28 +17,28 @@ $(document).ready(function(){
     $("#management").click(function(){
         $("#management").hide()
     })
-    $(".Une").mouseover(function(){
+    $(".one").mouseover(function(){
         $("#hover1").toggle()
     })
-    $(".deux").mouseover(function(){
+    $(".two").mouseover(function(){
         $("#hover2").toggle()
     })
-    $(".trois").mouseover(function(){
+    $(".three").mouseover(function(){
         $("#hover3").toggle()
     })
-    $(".quatre").mouseover(function(){
+    $(".four").mouseover(function(){
         $("#hover4").toggle()
     })
-    $(".cinq").mouseover(function(){
+    $(".five").mouseover(function(){
         $("#hover5").toggle()
     })
     $(".six").mouseover(function(){
         $("#hover6").toggle()
     })
-    $(".sept").mouseover(function(){
+    $(".seven").mouseover(function(){
         $("#hover7").toggle()
     })
-    $(".huit").mouseover(function(){
+    $(".eight").mouseover(function(){
         $("#hover8").toggle()
     })
 })
