@@ -1,5 +1,5 @@
 #pg1{
-    background-image: url("/images/josh-sorenson-LVmyjS0hxYU-unsplash.jpg");
+    background-image: url("./images/josh-sorenson-LVmyjS0hxYU-unsplash.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -55,7 +55,7 @@
 }
 .services{
     text-align: center;
-    background-image: url("/images/caught-in-joy-ptVBlniJi50-unsplash.jpg");
+    background-image: url("./images/caught-in-joy-ptVBlniJi50-unsplash.jpg");
     color: aliceblue;
     background-position: center;
     background-size: cover;
@@ -108,7 +108,7 @@
 }
 
 .contact{
-    background-image: url(/images/omid-armin-0cbLoqUyz28-unsplash.jpg);
+    background-image: url(./images/omid-armin-0cbLoqUyz28-unsplash.jpg);
     background-position: center center;
     background-size: cover;background-repeat: no-repeat;
     color: aliceblue;
