@@ -1,6 +1,11 @@
 # Conformity-studios
 Conformity studios. where music and photography is a way of life.
 
+#__Author name__
+
+Timothy Kagondu
+
+
 About us.
 
 When you work with us,you are part of a team of committed collaborators. All aspects of our process are intergrated, interactive and agile.
