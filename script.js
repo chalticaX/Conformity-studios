@@ -19,7 +19,7 @@ fetch('https://billboard-api2.p.rapidapi.com/hot-100?range=1-10&date=2019-05-11'
 	.then(response => console.log(response))
 	.catch(err => console.error(err));
 
-
+    
 const fom = document.querySelector("#form1");
 fom.addEventListener("submit",forme)
 
@@ -40,3 +40,9 @@ function forme(event){
     return fom.reset()
 
 }
+
+/*event listeners*/
+
+const p1 = document.getElementById ("p1");
+const div1 = document.getElementById ("pg1");
+const p2 = document.getElementById ("p2");
