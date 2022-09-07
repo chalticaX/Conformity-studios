@@ -10,19 +10,18 @@ We start each project by understanding your business goals,the users needs and t
 What we do.
 
 1. Design
-
-our design practice offers a full range of services including brand strategy,interaction and music production and photography.
+---
+* our design practice offers a full range of services including brand strategy,interaction and music production and photography.
 
 2. Development
-
-We wish to grow to inter-nationaly and give a chance to the young generation to work with us.
+---
+*We wish to grow to inter-nationaly and give a chance to the young generation to work with us.
 
 3. Product management
+---
+*Here we take the basis of team-work seriously and work together to make the best you can have as our client.
 
-Here we take the basis of team-work seriously and work together to make the best you can have as our client.
-
-
-# **It is allowed to clone or make copies of this project feel free to work and better it.**
+### **It is allowed to clone or make copies of this project feel free to work and better it.**
 
 
 Contacts.
