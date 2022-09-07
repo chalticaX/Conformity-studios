@@ -41,7 +41,7 @@ function forme(event){
 
 }
 
-/*event listeners*/
+/*event listener 1*/
 
 const p1 = document.getElementById ("p1");
 const div1 = document.getElementById ("about");
@@ -54,3 +54,15 @@ p1.onclick =function(){
     div1.style.background = "grey"
 };
 
+/*event listener 2*/
+
+const p2 = document.getElementById ("p2");
+const div2 = document.getElementById ("services2");
+
+p2.addEventListener("click", function(){
+    div2.style.background = "grey"
+});
+
+p2.onclick =function(){
+    div2.style.background = "grey"
+};
