@@ -44,5 +44,13 @@ function forme(event){
 /*event listeners*/
 
 const p1 = document.getElementById ("p1");
-const div1 = document.getElementById ("pg1");
-const p2 = document.getElementById ("p2");
+const div1 = document.getElementById ("about");
+
+p1.addEventListener("click", function(){
+    div1.style.background = "grey"
+});
+
+p1.onclick =function(){
+    div1.style.background = "grey"
+};
+
