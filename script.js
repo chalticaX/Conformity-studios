@@ -23,6 +23,9 @@ document.addEventListener('DOMContentLoaded', function(){
     
         
     const fom = document.querySelector("#form1");
+
+    /*event listener 2*/
+
     fom.addEventListener("submit",forme)
     
     function forme(event){
@@ -43,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function(){
     
     }
     
-    /*event listener 2*/
+    /*event listener 3*/
     
     const p1 = document.getElementById ("p1");
     const div1 = document.getElementById ("about");
