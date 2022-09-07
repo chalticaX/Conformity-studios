@@ -35,7 +35,7 @@ function forme(event){
     }else if(userEmail == ""){
        return alert("please enter your Email address")
     }else{
-        alert("thank you" + " " + "," + userName + " " + "we have recieved your details");
+        alert("Thank you" + " " + "," + userName + " " + "logged in succesfully. WELCOME");
     }
     return fom.reset()
 
