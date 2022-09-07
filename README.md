@@ -22,7 +22,7 @@ We wish to grow to inter-nationaly and give a chance to the young generation to 
 Here we take the basis of team-work seriously and work together to make the best you can have as our client.
 
 
-*It is allowed to clone or make copies of this project feel free to work and better it.*
+# **It is allowed to clone or make copies of this project feel free to work and better it.**
 
 
 Contacts.
