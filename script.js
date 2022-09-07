@@ -1,3 +1,11 @@
+function renderObject(object){
+    console.log(object);
+    let row = document.createElement('array');
+    row.innerHTML = `
+    <p> ${object.info.category} </p>
+    `;
+}
+
 const options = {
 	method: 'GET',
 	headers: {
