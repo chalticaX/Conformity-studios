@@ -66,3 +66,16 @@ p2.addEventListener("click", function(){
 p2.onclick =function(){
     div2.style.background = "grey"
 };
+
+/*event listener 3*/
+
+const p3 = document.getElementById ("p3");
+const div3 = document.getElementById ("port1");
+
+p3.addEventListener("click", function(){
+    div3.style.background = "grey"
+});
+
+p3.onclick =function(){
+    div3.style.background = "grey"
+};
